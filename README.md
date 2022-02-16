@@ -10,6 +10,8 @@ All-That-Quiz is a simple Quiz App, which is built using ReactJs and all the que
 
 ## Demo
 
+https://all-that-quiz.netlify.app/
+
 ## Run Locally
 
 Clone the project
