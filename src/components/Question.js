@@ -43,7 +43,7 @@ const Question = ({ currentQuestion, choices, setCurrentQuestion }) => {
       setSelected();
     } else {
       toast({
-        title: "Please select and answer",
+        title: "Please select an answer",
         status: "warning",
         duration: 3000,
         position: "top",
