@@ -127,8 +127,8 @@ const Home = () => {
                 value={difficulty}
               >
                 <option value="easy">Easy</option>
-                <option value="easy">Medium</option>
-                <option value="easy">Hard</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
               </Select>
               <Select
                 color="black"
