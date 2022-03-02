@@ -27,7 +27,11 @@ const Home = () => {
     setScore,
   } = QuizState();
 
-  const numberOfQuestions = Array.from(Array(51).keys());
+  //const numberOfQuestions = Array.from(Array(51).keys());
+  const numberOfQuestions = Array.from({ length: 51 }, (_, index) => {
+    return index;
+  });
+
   numberOfQuestions.shift();
 
   const toast = useToast();
